@@ -1,0 +1,41 @@
+body,html{
+     margin: 0;
+     padding: 0;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.en-tete{
+     position: fixed;
+     top: 0%;
+     width: 100%;
+     padding: .5%;
+     background-color: rgb(40, 40, 45,0.9);
+}
+.logo{
+     color: white;
+     float: left;
+     font-size: 95%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     border: 2px solid white;
+     border-radius: 40px 40px 30px 10px ;
+     padding: 1%;
+     margin: 5px;
+     text-shadow: -2px -1px black;
+}
+.box ul li{
+     display: inline;
+}
+.box{
+     margin-right: 2%;
+}
+.box,ul li a{
+     text-decoration: none;
+     text-align: right;
+     color: beige;
+}
+.box ul li a:hover{
+     box-shadow: 1px 2px 3px 3px rgba(255, 255, 255,0.3);
+     color: aliceblue;
+     border-radius: 3%;
+     padding: .4%;
+     margin: .5%;
+}
